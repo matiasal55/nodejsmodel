@@ -4,7 +4,8 @@
   "description": "Repositorio modelo para hacer backend con Node y Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon",
+    "build":"node index"
   },
   "keywords": [
     "express",
@@ -17,6 +18,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.7"
   }
 }
