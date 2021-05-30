@@ -1,6 +1,6 @@
 const express = require('express');
 const logger = require('morgan');
-const { error } = require('./utils/messages/error');
+const { error } = require('./services/messages/error');
 const app = express();
 
 app.use(express.json());
